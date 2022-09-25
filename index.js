@@ -1,10 +1,10 @@
 var readline_Sync = require("readline-sync");
 var chalk = require('chalk');
 var user_name = readline_Sync.question(chalk.red("Enter your name: "));
-let greeting = readline_Sync.keyInYN(chalk.green(`Hello ${user_name}, Are You (Royal Enfield Lover) ?`));
+let greeting = readline_Sync.keyInYN(chalk.green(`Hello ${user_name}, Do You Know me ?`));
 
 if (greeting) {
-  console.log(chalk.bgCyan("Then I'll Test how much you know about RE?"));
+  console.log(chalk.bgCyan("Then I'll Test how much you know me?"));
   console.log("=====================================================")
 }
 else {
